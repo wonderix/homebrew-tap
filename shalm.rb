@@ -4,11 +4,12 @@ class Shalm < Formula
   version "v0.5.7"
   if OS.mac?
     url "https://github.com/wonderix/shalm/releases/download/v0.5.7/shalm-binary-darwin.tgz"
-    sha256 "302c3d35075aab0ce2f0f293f8af42e9cbae23380d0c43eb4c47c16ea6f084f7"
+    sha256 "bbd6536ef2cb84bf9b0adb1b72bb16dc883331c180449d72baaaf817ca16c3f2"
   elsif OS.linux?
     url "https://github.com/wonderix/shalm/releases/download/v0.5.7/shalm-binary-linux.tgz"
-    sha256 "068ebe5841a844e11e0f6cbe708487956e36942a536dbf052420f8a5a2db67e1"
+    sha256 "91bc5e7b09f276ebcaba2d74c1b96b32c5dffdf64df9f1df1f8440d8c000db74"
   end
+
   depends_on :arch => :x86_64
 
   def install
