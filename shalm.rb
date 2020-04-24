@@ -9,7 +9,6 @@ class Shalm < Formula
     url "https://github.com/wonderix/shalm/releases/download/v0.5.7/shalm-binary-linux.tgz"
     sha256 "068ebe5841a844e11e0f6cbe708487956e36942a536dbf052420f8a5a2db67e1"
   end
-
   depends_on :arch => :x86_64
 
   def install
