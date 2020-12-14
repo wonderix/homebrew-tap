@@ -1,13 +1,13 @@
 class Shalm < Formula
   desc "K8s installation tool"
   homepage "https://github.com/wonderix/shalm"
-  version "v0.7.0"
+  version "v0.6.14"
   if OS.mac?
-    url "https://github.com/wonderix/shalm/releases/download/v0.7.0/shalm-binary-darwin.tgz"
-    sha256 "df5b3eee54e5b404adfa7f6baf5b60ddb6d172bb6e052514db0a3f5c44cf2ff3"
+    url "https://github.com/wonderix/shalm/releases/download/v0.6.14/shalm-binary-darwin.tgz"
+    sha256 "a08dab42064b514d8c4c7430a9bfbdb9212df6b0bcaad60f422299cdf4f34431"
   elsif OS.linux?
-    url "https://github.com/wonderix/shalm/releases/download/v0.7.0/shalm-binary-linux.tgz"
-    sha256 "1dd202b22ea6813296b3de1b718506b7fadc8656d5107c0e336d8c19b2dc796b"
+    url "https://github.com/wonderix/shalm/releases/download/v0.6.14/shalm-binary-linux.tgz"
+    sha256 "ba98d9df6795e0d393ef479af78e261e1ed6ad75ed3c0e239c8390609dfd528e"
   end
 
   depends_on :arch => :x86_64
